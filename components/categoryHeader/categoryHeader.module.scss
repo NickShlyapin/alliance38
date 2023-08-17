@@ -1,0 +1,182 @@
+@media (min-width: 960px) {
+  .wrapper {
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    .marketBottom {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      width: 100%;
+      .arrowCont {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        font-family: "Montserrat-Regular";
+        letter-spacing: -0.02em;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        color: #fff;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        text-decoration: underline red;
+        text-underline-offset: 6px;
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    .marketTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: relative;
+      font-family: "Montserrat-Regular";
+      letter-spacing: -0.02em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 52px;
+      color: #fff;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@media (min-width: 550px) and (max-width: 1079px) {
+  .wrapper {
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    .marketBottom {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      width: 100%;
+      .arrowCont {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        font-family: "Montserrat-Regular";
+        letter-spacing: -0.02em;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        color: #fff;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        text-decoration: underline red;
+        text-underline-offset: 6px;
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    .marketTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: relative;
+      font-family: "Montserrat-Regular";
+      letter-spacing: -0.02em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 38px;
+      color: #fff;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 549px) {
+  .wrapper {
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    .marketBottom {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      width: 100%;
+      .arrowCont {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        font-family: "Montserrat-Regular";
+        letter-spacing: -0.02em;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #fff;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        text-decoration: underline red;
+        text-underline-offset: 6px;
+        transition: all ease-in-out 0.3s;
+      }
+    }
+    .marketTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      position: relative;
+      font-family: "Montserrat-Regular";
+      letter-spacing: -0.02em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      color: #fff;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

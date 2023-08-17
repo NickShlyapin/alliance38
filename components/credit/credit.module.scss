@@ -1,0 +1,1194 @@
+@media (min-width: 1120px) {
+  .closeBtn {
+    cursor: pointer;
+    position: fixed;
+    padding: 5px 8px;
+    line-height: 20px;
+    right: 5px;
+    top: 5px;
+    font-size: 24px;
+    border-radius: 18px;
+    border: 0px;
+  }
+  .credit {
+    h1 {
+      position: relative;
+      font-family: "Montserrat-Regular";
+      letter-spacing: -0.02em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 36px;
+      color: #fff;
+      text-align: left;
+    }
+    .popupCart {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: auto;
+      border: 1px solid #fff;
+      box-sizing: border-box;
+      .cartImgCont {
+        flex-shrink: 0;
+        height: auto;
+        width: calc(50% - 15px);
+        position: relative;
+        box-sizing: border-box;
+        .cartImg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
+      .popupCartInfo {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 18px 10px 18px 30px;
+        .title {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+        }
+        .row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          box-sizing: border-box;
+          .infoTitle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 70%;
+          }
+          .info {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 30%;
+          }
+          .cardPrice {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 20px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Regular";
+            margin-top: 10px;
+            text-align: left;
+            width: 50%;
+            text-decoration: underline red;
+            text-underline-offset: 6px;
+          }
+          .cardCredits {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 50%;
+          }
+        }
+      }
+    }
+    .popupCalcField {
+      box-sizing: border-box;
+      .inputBlock {
+        box-sizing: border-box;
+        p {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+        }
+        .inputField {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+        }
+        .rangeValue {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0;
+          padding: 0;
+          p {
+            position: relative;
+            font-family: "Montserrat-Regular";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            color: #fff;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .inputBlock2 {
+        box-sizing: border-box;
+        display: flex;
+        align-items: baseline;
+        width: 100%;
+        gap: 40px;
+        button {
+          background-color: transparent;
+          padding: 15px 78px;
+          width: 100%;
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          color: #ffffff;
+          border: 0px;
+          text-transform: uppercase;
+          margin-top: 10px;
+          border: 1px solid #fff;
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            color: #262626;
+            background-color: #fff;
+          }
+        }
+        button:disabled,
+        button[disabled] {
+          opacity: 0.5;
+          cursor: auto;
+          &:hover {
+            color: #ffffff;
+            border: 1px solid #fff;
+            background-color: transparent;
+          }
+        }
+        p {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+        }
+        .column {
+          width: 50%;
+        }
+        .inputField {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+          &:active {
+            outline: none;
+          }
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: "Montserrat-Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .inputFieldForm {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+          &:active {
+            outline: none;
+          }
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: "Montserrat-Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .rangeValue {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0;
+          padding: 0;
+          p {
+            position: relative;
+            font-family: "Montserrat-Regular";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            color: #fff;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .creditInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+        }
+        p {
+          position: relative;
+          font-family: "Montserrat-Light";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+          text-align: left;
+          mark {
+            position: relative;
+            font-family: "Montserrat-Light";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            color: #fff;
+            text-align: left;
+            background-color: transparent;
+            text-decoration: underline red;
+            text-underline-offset: 6px;
+          }
+        }
+      }
+      .politic {
+        font-family: "Montserrat-Light";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+
+        p {
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: #fff;
+        }
+        a {
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          color: #fff;
+          border: 0;
+          text-transform: none;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) and (max-width: 1119px) {
+  .closeBtn {
+    cursor: pointer;
+    position: fixed;
+    padding: 5px 8px;
+    line-height: 20px;
+    right: 5px;
+    top: 5px;
+    font-size: 24px;
+    border-radius: 18px;
+    border: 0px;
+  }
+  .credit {
+    h1 {
+      position: relative;
+      font-family: "Montserrat-Regular";
+      letter-spacing: -0.02em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      color: #fff;
+      text-align: left;
+    }
+    .popupCart {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      border: 1px solid #fff;
+      box-sizing: border-box;
+      .cartImgCont {
+        flex-shrink: 0;
+        height: auto;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        box-sizing: border-box;
+        .cartImg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
+      .popupCartInfo {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 18px 10px 18px 30px;
+        .title {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+          text-align: left;
+        }
+        .row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          box-sizing: border-box;
+          .infoTitle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 30%;
+          }
+          .info {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 40%;
+          }
+          .cardPrice {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 20px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Regular";
+            margin-top: 20px;
+            text-align: left;
+            text-decoration: underline red;
+            text-underline-offset: 6px;
+            width: 100%;
+          }
+          .cardCredits {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 50%;
+          }
+        }
+      }
+    }
+    .popupCalcField {
+      box-sizing: border-box;
+      .inputBlock {
+        box-sizing: border-box;
+        p {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+          text-align: left;
+        }
+        .inputField {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+        }
+        .rangeValue {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0;
+          padding: 0;
+          p {
+            position: relative;
+            font-family: "Montserrat-Regular";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .inputBlock2 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        width: 100%;
+
+        button {
+          background-color: transparent;
+          padding: 15px 78px;
+          width: 100%;
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          color: #ffffff;
+          border: 0px;
+          text-transform: uppercase;
+          margin-top: 10px;
+          border: 1px solid #fff;
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            color: #262626;
+            background-color: #fff;
+          }
+        }
+        button:disabled,
+        button[disabled] {
+          opacity: 0.5;
+          cursor: auto;
+          &:hover {
+            color: #ffffff;
+            border: 1px solid #fff;
+            background-color: transparent;
+          }
+        }
+        p {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+          text-align: left;
+        }
+        .column {
+          width: 100%;
+        }
+        .inputField {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+          &:active {
+            outline: none;
+          }
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: "Montserrat-Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .inputFieldForm {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+          margin-top: 15px;
+          &:active {
+            outline: none;
+          }
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: "Montserrat-Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .rangeValue {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0;
+          padding: 0;
+          p {
+            position: relative;
+            font-family: "Montserrat-Regular";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .creditInfo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        h3 {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+          text-align: left;
+        }
+        p {
+          position: relative;
+          font-family: "Montserrat-Light";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          color: #fff;
+          text-align: left;
+
+          mark {
+            position: relative;
+            font-family: "Montserrat-Light";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            color: #fff;
+            text-align: left;
+            background-color: transparent;
+            text-decoration: underline red;
+            text-underline-offset: 6px;
+          }
+        }
+      }
+      .politic {
+        font-family: "Montserrat-Light";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+
+        p {
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: #fff;
+        }
+        a {
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          color: #fff;
+          border: 0;
+          text-transform: none;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 549px) {
+  .closeBtn {
+    cursor: pointer;
+    position: fixed;
+    padding: 5px 8px;
+    line-height: 20px;
+    right: 5px;
+    top: 5px;
+    font-size: 24px;
+    border-radius: 18px;
+    border: 0px;
+  }
+  .credit {
+    h1 {
+      position: relative;
+      font-family: "Montserrat-Regular";
+      letter-spacing: -0.02em;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 22px;
+      color: #fff;
+      text-align: left;
+    }
+    .popupCart {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      border: 1px solid #fff;
+      box-sizing: border-box;
+      .cartImgCont {
+        flex-shrink: 0;
+        height: auto;
+        width: 100%;
+        height: 100px;
+        position: relative;
+        box-sizing: border-box;
+        .cartImg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          -o-object-fit: cover;
+          object-fit: cover;
+        }
+      }
+      .popupCartInfo {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 18px 10px 18px 30px;
+        .title {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          color: #fff;
+          text-align: left;
+        }
+        .row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          box-sizing: border-box;
+          .infoTitle {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 14px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 30%;
+          }
+          .info {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 14px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 40%;
+          }
+          .cardPrice {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 18px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Regular";
+            margin-top: 20px;
+            text-align: left;
+            text-decoration: underline red;
+            text-underline-offset: 6px;
+            width: 100%;
+          }
+          .cardCredits {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            line-height: 17px;
+            color: #fff;
+            letter-spacing: 0.01em;
+            gap: 15px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat-Light";
+            margin-top: 10px;
+            text-align: left;
+            width: 50%;
+          }
+        }
+      }
+    }
+    .popupCalcField {
+      box-sizing: border-box;
+      .inputBlock {
+        box-sizing: border-box;
+        p {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          color: #fff;
+          text-align: left;
+        }
+        .inputField {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+        }
+        .rangeValue {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0;
+          padding: 0;
+          p {
+            position: relative;
+            font-family: "Montserrat-Regular";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            color: #fff;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .inputBlock2 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        width: 100%;
+
+        button {
+          background-color: transparent;
+          padding: 15px 78px;
+          width: 100%;
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          color: #ffffff;
+          border: 0px;
+          text-transform: uppercase;
+          margin-top: 10px;
+          border: 1px solid #fff;
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            color: #262626;
+            background-color: #fff;
+          }
+        }
+        button:disabled,
+        button[disabled] {
+          opacity: 0.5;
+          cursor: auto;
+          &:hover {
+            color: #ffffff;
+            border: 1px solid #fff;
+            background-color: transparent;
+          }
+        }
+        p {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          color: #fff;
+          text-align: left;
+        }
+        .column {
+          width: 100%;
+        }
+        .inputField {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+          &:active {
+            outline: none;
+          }
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: "Montserrat-Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .inputFieldForm {
+          background-color: transparent;
+          border: 1px solid #fff;
+          -webkit-border-radius: 0%;
+          -moz-border-radius: 0%;
+          border-radius: 0%;
+          padding: 15px 25px;
+          font-family: "Montserrat-Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 0;
+          margin-top: 15px;
+          &:active {
+            outline: none;
+          }
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: "Montserrat-Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .rangeValue {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 0;
+          padding: 0;
+          p {
+            position: relative;
+            font-family: "Montserrat-Regular";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            color: #fff;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .creditInfo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        h3 {
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          color: #fff;
+          text-align: left;
+        }
+        p {
+          position: relative;
+          font-family: "Montserrat-Light";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          color: #fff;
+          text-align: left;
+
+          mark {
+            position: relative;
+            font-family: "Montserrat-Light";
+            letter-spacing: -0.02em;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            color: #fff;
+            text-align: left;
+            background-color: transparent;
+            text-decoration: underline red;
+            text-underline-offset: 6px;
+          }
+        }
+      }
+      .politic {
+        font-family: "Montserrat-Light";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #fff;
+
+        p {
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 10px;
+          color: #fff;
+        }
+        a {
+          font-family: "Montserrat-Light";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          color: #fff;
+          border: 0;
+          text-transform: none;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

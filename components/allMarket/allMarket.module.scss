@@ -1,0 +1,356 @@
+@media (min-width: 960px) {
+  .market {
+    position: relative;
+    box-sizing: border-box;
+    padding: 100px 0;
+    overflow: hidden;
+    .gr {
+      position: absolute;
+      top: 400px;
+      left: -100px;
+      filter: brightness(40%);
+    }
+
+    .gr1 {
+      position: absolute;
+      bottom: 100px;
+      right: -100px;
+      filter: brightness(70%);
+    }
+
+    .gr2 {
+      position: absolute;
+      bottom: 500px;
+      left: 37%;
+    }
+
+    .wrapper {
+      max-width: 1280px;
+      position: relative;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 50;
+      text-align: center;
+      padding: 0px 20px;
+      box-sizing: border-box;
+      .marketTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        h2 {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 52px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+        }
+        .arrowCont {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 28px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          text-decoration: underline red;
+          text-underline-offset: 6px;
+          transition: all ease-in-out 0.3s;
+          &:hover {
+            text-decoration: underline #fff;
+            color: red;
+          }
+        }
+      }
+      .offersList {
+        width: 100%;
+        padding-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+      .marketBottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        width: 100%;
+        .arrowCont {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 28px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          text-decoration: underline red;
+          text-underline-offset: 6px;
+          transition: all ease-in-out 0.3s;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) and (max-width: 1079px) {
+  .market {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 0;
+    overflow: hidden;
+    .gr {
+      position: absolute;
+      top: 400px;
+      left: -100px;
+      filter: brightness(40%);
+    }
+
+    .gr1 {
+      position: absolute;
+      bottom: 100px;
+      right: -100px;
+      filter: brightness(70%);
+    }
+
+    .gr2 {
+      position: absolute;
+      bottom: 500px;
+      left: 37%;
+    }
+
+    .wrapper {
+      max-width: 1079px;
+      position: relative;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 50;
+      text-align: center;
+      padding: 100px 20px;
+      box-sizing: border-box;
+      .marketTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        h2 {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 38px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+        }
+        .arrowCont {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          text-decoration: underline red;
+          text-underline-offset: 6px;
+          transition: all ease-in-out 0.3s;
+          &:hover {
+            text-decoration: underline #fff;
+            color: red;
+          }
+        }
+      }
+      .offersList {
+        width: 100%;
+        padding-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+      .marketBottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        width: 100%;
+        .arrowCont {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 28px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          text-decoration: underline red;
+          text-underline-offset: 6px;
+          transition: all ease-in-out 0.3s;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 549px) {
+  .market {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 0;
+    overflow: hidden;
+    .gr {
+      position: absolute;
+      top: 400px;
+      left: -100px;
+      filter: brightness(40%);
+    }
+
+    .gr1 {
+      position: absolute;
+      bottom: 100px;
+      right: -100px;
+      filter: brightness(70%);
+    }
+
+    .gr2 {
+      position: absolute;
+      bottom: 500px;
+      left: 37%;
+    }
+
+    .wrapper {
+      max-width: 1280px;
+      position: relative;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 50;
+      text-align: center;
+      padding: 100px 20px;
+      box-sizing: border-box;
+      .marketTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        h2 {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+        }
+        .arrowCont {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          text-decoration: underline red;
+          text-underline-offset: 6px;
+          transition: all ease-in-out 0.3s;
+          &:hover {
+            text-decoration: underline #fff;
+            color: red;
+          }
+        }
+      }
+      .offersList {
+        width: 100%;
+        padding-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+      .marketBottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        width: 100%;
+        .arrowCont {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          position: relative;
+          font-family: "Montserrat-Regular";
+          letter-spacing: -0.02em;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          color: #fff;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          text-decoration: underline red;
+          text-underline-offset: 6px;
+          transition: all ease-in-out 0.3s;
+        }
+      }
+    }
+  }
+}

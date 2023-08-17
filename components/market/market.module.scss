@@ -1,0 +1,49 @@
+.market {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0px;
+  overflow: hidden;
+  .gr {
+    position: absolute;
+    top: 00px;
+    left: -100px;
+    filter: brightness(40%);
+  }
+
+  .gr1 {
+    position: absolute;
+    bottom: 100px;
+    right: -100px;
+    filter: brightness(70%);
+  }
+
+  .gr2 {
+    position: absolute;
+    bottom: 500px;
+    left: 37%;
+  }
+
+  .wrapper {
+    max-width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    text-align: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    .offersList {
+      width: 100%;
+      padding-top: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
+}
